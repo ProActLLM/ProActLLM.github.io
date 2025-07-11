@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ProActLLM @ CIKM2025</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    
+<div class="header-bg">
+  <nav>
+    <button class="nav-toggle" onclick="toggleNav()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#cfp">CFP</a>
+      <a href="#submission">Submission</a>
+      <a href="#dates">Dates</a>
+      <a href="#program">Program</a>
+      <a href="#speakers">Speakers</a>
+      <a href="#organizers">Organizers</a>
+      <a href="#committee">Committee</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header>
+    <h1>ProActLLM @ CIKM2025</h1>
+    <p>Proactive Conversational Information Seeking with Large Language Models<br>
+        CIKM 2025 Workshop - Codex, Seoul, South Korea – November 14, 2025</p>
+  </header>
+</div>
+
+<main>
+
+  <section id="about" class="section">
+    <h2>About</h2>
+    <p>
+        Large Language Models (LLMs) have transformed information access by enabling human-like text understanding and generation. This workshop explores the next step for conversational AI: building proactive information-seeking assistants that go beyond reactive Q&A. We aim to investigate how LLMs can anticipate user needs, model complex context, support mixed-initiative interactions, integrate retrieval and external tools, personalize responses, adapt through feedback, and ensure fairness, transparency, and cognitive grounding. Bringing together experts from NLP, IR, HCI, and cognitive science, the workshop will serve as a timely forum for advancing intelligent, proactive dialogue systems and fostering interdisciplinary collaboration.
+    </p>
+  </section>
+
+  <section id="cfp" class="section">
+    <h2>Call for Papers</h2>
+    <p>We invite submissions on a wide range of topics related to proactive conversational information seeking. Relevant topics include, but are not limited to:</p>
+    <ol>
+      <li><strong>Proactive question asking and clarification:</strong> Techniques for an agent to formulate clarifying questions or prompts to better understand user intent.</li>
+      <li><strong>Mixed-initiative dialogue management:</strong> Models for balancing system initiative and user control in information-seeking conversations.</li>
+      <li><strong>LLMs for conversational information access:</strong> Leveraging LLMs to perform retrieval-augmented generation, knowledge grounding, and dynamic topic suggestion during dialogue.</li>
+      <li><strong>User modelling and context understanding:</strong> Inferring user goals, knowledge, and preferences throughout a conversation to drive proactive system actions.</li>
+      <li><strong>Evaluation metrics and methodologies:</strong> Developing metrics, benchmarks, and user-centric evaluation protocols for proactive conversational systems (e.g., measuring user satisfaction or engagement).</li>
+      <li><strong>Domain-specific applications:</strong> Proactive conversational assistants in domains such as healthcare, education (e.g., tutoring systems), customer support, enterprise search, or personal digital assistants.</li>
+      <li><strong>Ethical and user experience considerations:</strong> Ensuring proactive behaviour is helpful and not intrusive; handling user privacy, fairness for diverse users, and mitigating misinformation or biases in proactive responses.</li>
+      <li><strong>Cognitive load management:</strong> Designing proactive systems that consider users' cognitive capacity and attention limitations, timing interventions to minimize information overload while maximizing utility.</li>
+      <li><strong>Memory and forgetting models:</strong> Incorporating human-like memory mechanisms that prioritize, decay, and reconstruct information to inform proactive suggestions based on what users are likely to member or forget.</li>
+      <li><strong>Metacognitive awareness:</strong> Building systems that can recognize when users are struggling with information processing, experiencing confusion, or need different types of cognitive support.</li>
+      <li><strong>Expertise adaptation:</strong> Dynamically adjusting proactive behavior based on users' domain expertise levels, from novice scaffolding to expert-level anticipatory support.</li>
+      <li><strong>Multi-modal proactive assistance:</strong> Integrating visual, audio, and textual cues to anticipate user needs across different interaction modalities and contexts.</li>
+      <li><strong>Tool orchestration and API integration:</strong> Seamlessly coordinating multiple external tools, databases, and services to fulfill complex, multi-step information needs.</li>
+      <li><strong>Explainability and transparency:</strong> Making proactive system decisions interpretable and allowing users to understand why certain suggestions were made.</li>
+      <li><strong>Cultural and linguistic adaptation:</strong> Developing proactive systems that are sensitive to diverse cultural contexts and communication styles.</li>
+    </ol>
+  </section>
+
+  <section id="submission" class="section">
+    <h2>Paper Submission Instructions</h2>
+    <p>We welcome submissions of original research papers that have not been previously published or are not under review elsewhere.</p>
+    
+    <h3>Submission Format</h3>
+    <ul>
+      <li><strong>Paper Length:</strong> 4-9 pages (excluding references)</li>
+      <li><strong>Format:</strong> ACM SIG proceedings format (double-column)</li>
+      <li><strong>Language:</strong> English</li>
+      <li><strong>File Format:</strong> PDF only</li>
+    </ul>
+    
+    <h3>Submission Guidelines</h3>
+    <ul>
+      <li>Papers should be submitted through the workshop's submission system (link TBA)</li>
+      <li>All submissions must be anonymous for double-blind review</li>
+      <li>Include all authors' names, affiliations, and contact information in the submission form</li>
+      <li>Papers should clearly state their contribution to proactive conversational information seeking</li>
+      <li>Experimental papers should include appropriate evaluation metrics and statistical significance tests</li>
+      <li>System papers should provide sufficient technical details for reproducibility</li>
+    </ul>
+    
+    <h3>Review Process</h3>
+    <ul>
+      <li>All papers will undergo double-blind peer review</li>
+      <li>Each paper will be reviewed by at least 3 reviewers</li>
+      <li>Papers will be evaluated based on novelty, technical quality, clarity, and relevance to the workshop</li>
+      <li>Accepted papers will be presented at the workshop and included in the proceedings</li>
+    </ul>
+    
+    <h3>Camera-Ready Requirements</h3>
+    <ul>
+      <li>Accepted papers must follow the final ACM SIG proceedings format</li>
+      <li>Authors must address reviewer comments in the camera-ready version</li>
+      <li>Final papers must be submitted by the camera-ready deadline</li>
+    </ul>
+  </section>
+
+  <section id="dates" class="section">
+    <h2>Important Dates</h2>
+    <div class="dates-table">
+      <table>
+        <tbody>
+          <tr>
+            <td><strong>Paper Submission Deadline:</strong></td>
+            <td>August 31, 2025</td>
+          </tr>
+          <tr>
+            <td><strong>Notification of Acceptance:</strong></td>
+            <td>September 30, 2025</td>
+          </tr>
+          <tr>
+            <td><strong>Camera-Ready Deadline:</strong></td>
+            <td>October 10, 2025</td>
+          </tr>
+          <tr>
+            <td><strong>Workshop Date:</strong></td>
+            <td>November 14, 2025</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="speakers" class="section">
+    <h2 class="non-text-section-header">Keynote Speaker</h2>
+    <div class="keynote-speaker">
+      <div class="person">
+        <img src="assets/images/tba.png" alt="TBA" />
+        <p>TBA<br><em>To Be Announced</em></p>
+      </div>
+      <div class="bio">
+        <p><!-- Speaker bio goes here. Example: -->
+        The keynote speaker's bio will be announced soon.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="program" class="section">
+    <h2 class="non-text-section-header">Program</h2>
+    <div class="program-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Activity</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>09:00 - 09:15</td>
+            <td>Opening & Welcome</td>
+            <td>Workshop introduction and overview</td>
+          </tr>
+          <tr>
+            <td>09:15 - 10:15</td>
+            <td>Keynote Talk</td>
+            <td>TBA</td>
+          </tr>
+          <tr>
+            <td>10:15 - 10:45</td>
+            <td>Coffee Break</td>
+            <td>Networking and discussions</td>
+          </tr>
+          <tr>
+            <td>10:45 - 12:00</td>
+            <td>Paper Presentations</td>
+            <td>Selected paper presentations</td>
+          </tr>
+          <tr>
+            <td>12:00 - 13:30</td>
+            <td>Lunch Break</td>
+            <td>Lunch and networking</td>
+          </tr>
+          <tr>
+            <td>13:30 - 15:00</td>
+            <td>Panel Discussion</td>
+            <td>Future directions and challenges</td>
+          </tr>
+          <tr>
+            <td>15:00 - 15:30</td>
+            <td>Coffee Break</td>
+            <td>Networking and discussions</td>
+          </tr>
+          <tr>
+            <td>15:30 - 17:00</td>
+            <td>Interactive Session</td>
+            <td>Hands-on activities and demos</td>
+          </tr>
+          <tr>
+            <td>17:00 - 17:15</td>
+            <td>Closing</td>
+            <td>Wrap-up and next steps</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="organizers" class="section">
+    <h2 class="non-text-section-header">Organizers</h2>
+    <div class="organizers">
+      <div class="person">
+        <img src="assets/images/shbham_chatterjee.jpg" alt="Shubham Chatterjee" />
+        <p>Shubham Chatterjee<br><em>Missouri S&T, USA</em></p>
+      </div>
+      <div class="person">
+        <img src="assets/images/xi_wang.jpg" alt="Xi Wang" />
+        <p>Xi Wang<br><em>University of Sheffield, UK</em></p>
+      </div>
+      <div class="person">
+        <img src="assets/images/shuo_zhang.jpg" alt="Shuo Zhang" />
+        <p>Shuo Zhang<br><em>Bloomberg, UK</em></p>
+      </div>
+      <div class="person">
+        <img src="assets/images/sajad_ebrahimi.png" alt="Sajad Ebrahimi" />
+        <p>Sajad Ebrahimi<br><em>University of Guelph, Canada</em></p>
+      </div>
+      <div class="person">
+        <img src="assets/images/zhaochun_ren.jpeg" alt="Zhaochun Ren" />
+        <p>Zhaochun Ren<br><em>Leiden University, The Netherlands</em></p>
+      </div>
+      <div class="person">
+        <img src="assets/images/debasis_ganguly.jpg" alt="Debasis Ganguly" />
+        <p>Debasis Ganguly<br><em>University of Glasgow, UK</em></p>
+      </div>
+      <div class="person">
+        <img src="assets/images/gareth_jones.jpg" alt="Gareth Jones" />
+        <p>Gareth Jones<br><em>Dublin City University, Ireland</em></p>
+      </div>
+      <div class="person">
+        <img src="assets/images/emine_yilmaz.jpg" alt="Emine Yilmaz" />
+        <p>Emine Yilmaz<br><em>University College London, UK</em></p>
+      </div>
+      <div class="person">
+        <img src="assets/images/hamed_zamani.jpg" alt="Hamed Zamani" />
+        <p>Hamed Zamani<br><em>UMass Amherst, USA</em></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="committee" class="section">
+    <h2>Program Committee</h2>
+    <ul class="committee-list">
+      <li><strong>Name</strong> - <em>Affiliation</em></li>
+      <li><strong>Name</strong> - <em>Affiliation</em></li>
+      <li><strong>Name</strong> - <em>Affiliation</em></li>
+      <li><strong>Name</strong> - <em>Affiliation</em></li>
+      <li><strong>Name</strong> - <em>Affiliation</em></li>
+      <li><strong>Name</strong> - <em>Affiliation</em></li>
+    </ul>
+    <p><em>More committee members to be announced...</em></p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email us at <a href="mailto:shubham.chatterjee@mst.edu">shubham.chatterjee@mst.edu</a></p>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2025 ProActLLM Workshop</p>
+</footer>
+
+<script>
+function toggleNav() {
+  const navLinks = document.querySelector('.nav-links');
+  navLinks.classList.toggle('active');
+}
+</script>
+
+</body>
+</html>
