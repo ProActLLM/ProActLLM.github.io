@@ -5,15 +5,48 @@ body {
   padding: 0;
 }
 
+.header-bg {
+  background: url('assets/images/cikm_header_bg_2.jpg') center/cover no-repeat;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.header-bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+  z-index: 1;
+}
+
+.header-bg nav,
+.header-bg header {
+  position: relative;
+  z-index: 2;
+}
+
 header {
-  background: #004080;
-  color: #fff;
-  padding: 1rem;
+  background: transparent;
+  color: #ffffff;
+  padding: 4rem 1rem;
   text-align: center;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 header h1 {
-  color: #fff;
+  color: #ffffff;
+  font-size: 4.5rem;
+  font-weight: 900;
+}
+
+header p {
+  font-size: 1.3rem;
+  margin-top: 5rem;
 }
 
 nav {
