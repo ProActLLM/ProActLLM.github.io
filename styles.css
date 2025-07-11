@@ -50,17 +50,117 @@ header p {
 }
 
 nav {
-  background: #e6e6e6;
+  background: transparent;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 1rem;
+  padding: 1rem 3rem;
+  position: relative;
+}
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
   padding: 0.5rem;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #bdb8b8;
+  transition: all 0.3s ease;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
 }
 
 nav a {
   text-decoration: none;
-  color: #333;
+  color: #bdb8b8;
   font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 0;
+    padding: 1rem;
+  }
+  
+  .nav-toggle {
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 1rem;
+  }
+  
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+  }
+  
+  .nav-links.active {
+    display: flex;
+  }
+  
+  nav a {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  nav a:last-child {
+    border-bottom: none;
+  }
+  
+  header {
+    padding: 2rem 1rem;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    padding: 0.5rem;
+  }
+  
+  nav a {
+    font-size: 0.9rem;
+    padding: 0.4rem 0;
+  }
+  
+  header {
+    padding: 1.5rem 0.5rem;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  header p {
+    font-size: 0.9rem;
+    margin-top: 1.5rem;
+  }
 }
 
 main {
@@ -73,6 +173,12 @@ h1,
 h2,
 h3 {
   color: #004080;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .section {

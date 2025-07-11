@@ -13,6 +13,12 @@
 
 <div class="header-bg">
 <nav>
+    <button class="nav-toggle" onclick="toggleNav()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <div class="nav-links">
   <a href="#about">About</a>
   <a href="#speakers">Speakers</a>
   <a href="#organizers">Organizers</a>
@@ -102,6 +108,13 @@
 <footer>
   <p>© 2025 ProActLLM Workshop</p>
 </footer>
+
+<script>
+function toggleNav() {
+  const navLinks = document.querySelector('.nav-links');
+  navLinks.classList.toggle('active');
+}
+</script>
 
 </body>
 </html>
