@@ -3,15 +3,12 @@
 Proactive Conversational Information Seeking with Large Language Models
 
 **Workshop Date:** November 14, 2025  
-**Location:** CIKM 2025 - Codex, Seoul, South Korea
+**Location:** CIKM 2025 - Coex, Seoul, South Korea
 
 ## About
 
 This workshop explores the next step for conversational AI: building proactive information-seeking assistants that go beyond reactive Q&A. We aim to investigate how LLMs can anticipate user needs, model complex context, support mixed-initiative interactions, integrate retrieval and external tools, personalize responses, adapt through feedback, and ensure fairness, transparency, and cognitive grounding.
 
-## Website
-
-The workshop website is hosted on GitHub Pages and can be accessed at: `https://[your-username].github.io/ProActLLM.github.io/`
 
 ## Local Development
 
@@ -34,4 +31,4 @@ The website is automatically deployed to GitHub Pages via GitHub Actions. Any pu
 
 ## Contact
 
-For questions about the workshop, contact: shubham.chatterjee@mst.edu 
+For questions about the workshop, contact: shubham.chatterjee@mst.edu, xiwang.sch@gmail.com, sadjadeb@gmail.com
