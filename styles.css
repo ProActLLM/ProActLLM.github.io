@@ -182,15 +182,28 @@ h2 {
 }
 
 .section {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
-.speakers,
+/* .speakers,
 .organizers {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1rem;
+} */
+
+.organizers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
+
+.organizers .person {
+  flex: 1 1 179px;
+  max-width: 200px;
+}
+
 
 .person {
   text-align: center;
