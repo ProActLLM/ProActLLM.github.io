@@ -492,3 +492,29 @@ nav a {
   border: none;
   box-shadow: none;
 }
+
+/* Accepted papers table: three columns (Title, Authors, Type) */
+.accepted-table table {
+  table-layout: fixed;
+}
+
+.accepted-table th:nth-child(1),
+.accepted-table td:nth-child(1) {
+  width: 45%;
+}
+
+.accepted-table th:nth-child(2),
+.accepted-table td:nth-child(2) {
+  width: 45%;
+}
+
+.accepted-table th:nth-child(3),
+.accepted-table td:nth-child(3) {
+  width: 10%;
+  white-space: nowrap;
+}
+
+/* Override program-table's first-column special rules for accepted tables */
+.accepted-table td:first-child {
+  white-space: normal;
+}
