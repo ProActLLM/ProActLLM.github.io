@@ -518,3 +518,17 @@ nav a {
 .accepted-table td:first-child {
   white-space: normal;
 }
+
+/* Camera-ready section heading sizes */
+#camera-ready h4 {
+  font-size: 1.4rem;
+  color: #004080;
+  margin-top: 1.5rem;
+}
+
+#camera-ready h5 {
+  font-size: 1.15rem;
+  color: #004080;
+  margin-top: 0.75rem;
+  margin-bottom: -0.5rem;
+}
