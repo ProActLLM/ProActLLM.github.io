@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ProActLLM — Submission Instructions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="header-bg">
+    <nav>
+      <button class="nav-toggle" onclick="toggleNav()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links">
+        <a href="index.html#about">About</a>
+        <a href="cfp.html">CFP</a>
+        <a href="submission.html">Submission</a>
+        <a href="index.html#dates">Dates</a>
+        <a href="camera-ready.html">Camera-Ready</a>
+        <a href="index.html#accepted-papers">Accepted Papers</a>
+        <a href="index.html#program">Program</a>
+        <a href="index.html#speakers">Speakers</a>
+        <a href="index.html#organizers">Organizers</a>
+        <a href="index.html#committee">Committee</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </nav>
+
+    <header>
+      <h1>ProActLLM</h1>
+      <h2>Submission Instructions</h2>
+      <p>November 14, 2025 · Coex, Seoul, South Korea (CIKM 2025)</p>
+    </header>
+  </div>
+
+  <main>
+    <section class="section">
+      <h2>Submission Instructions</h2>
+      <p>We welcome original research contributions that advance the field of proactive conversational information seeking. All submissions must be previously unpublished work, not currently under review at another venue.</p>
+      <h3>Submission Types & Requirements</h3>
+      <h4>📄 Research Papers</h4>
+      <p>
+        <strong>Short Papers (5-7 pages):</strong> Preliminary results, novel ideas, or focused contributions.<br>
+        <strong>Long Papers (10-12 pages):</strong> Comprehensive technical papers presenting novel algorithms, models, empirical studies, or theoretical insights.
+      </p>
+      <h4>📝 Perspective Papers (5-12 pages)</h4>
+      <p>Opinion pieces, surveys, or conceptual frameworks that help define and structure the field.</p>
+      <h4>🖥️ System Demonstrations (5-7 pages + demo)</h4>
+      <p>Working systems with accompanying demonstration videos (max 5 minutes).</p>
+      <h4>📊 Dataset & Resource Papers (5-12 pages)</h4>
+      <p>Novel datasets, benchmarks, or evaluation resources for proactive conversational systems</p>
+      <p><i>All page limits exclude references and appendices</i></p>
+      <h3>Format Requirements</h3>
+      <ul>
+        <li><strong>Template:</strong> CEUR-WS single-column format</li>
+        <li><strong>Language:</strong> English</li>
+        <li><strong>File Format:</strong> PDF only</li>
+        <li><strong>Submission Portal:</strong> <a href="https://easychair.org/conferences?conf=proactllm2025" target="_blank">https://easychair.org/conferences?conf=proactllm2025</a></li>
+        <li><strong>Download Templates:</strong>
+          <ul>
+            <li><a href="https://ceur-ws.org/Vol-XXX/CEURART.zip" target="_blank" rel="noopener noreferrer">Zip file containing ODT and LaTeX files</a></li>
+            <li><a href="https://www.overleaf.com/latex/templates/template-for-submissions-to-ceur-workshop-proceedings-ceur-ws-dot-org/hpvjjzhjxzjk" target="_blank" rel="noopener noreferrer">Overleaf LaTeX CEUR Template (Recommended)</a></li>
+          </ul>
+        </li>
+      </ul>
+      <h4>Template Usage Instructions:</h4>
+      <ul>
+        <li><strong>LaTeX users:</strong> Use the 1-column CEUR-WS LaTeX template (preferred option). Requires TeX-Live 2020 or later for local installations.</li>
+        <li><strong>LibreOffice users:</strong> Use the ODT template if you cannot use LaTeX. Ensure Libertinus font family is installed on your computer (instructions included in template).</li>
+        <li><strong>Important:</strong> Do <u>not</u> use cloud-based editors (Office 365, Google Docs) as they don't support required fonts.</li>
+        <li><strong>Microsoft Word:</strong> Not recommended due to PDF compatibility issues.</li>
+        <li><strong>Note:</strong> All templates include the mandatory AI declaration section as of 2024.</li>
+      </ul>
+      <h3>Submission Guidelines</h3>
+      <h4>What to Include</h4>
+      <ul>
+        <li>Clear problem statement and motivation</li>
+        <li>Comprehensive related work positioning within existing literature</li>
+        <li>Detailed methodology with sufficient implementation details</li>
+        <li>Rigorous evaluation with appropriate baselines and statistical tests</li>
+        <li>Honest discussion of limitations and future work</li>
+      </ul>
+      <h4>Special Requirements by Type</h4>
+      <ul>
+        <li><strong>Experimental Papers:</strong>
+          <ul>
+            <li>Include statistical significance testing</li>
+            <li>Provide implementation details for reproducibility</li>
+            <li>Share code/data when possible (anonymized links acceptable)</li>
+          </ul>
+        </li>
+        <li><strong>System Papers:</strong>
+          <ul>
+            <li>Include architecture diagrams and technical specifications</li>
+            <li>Provide demo video for system demonstrations</li>
+            <li>Discuss scalability and real-world deployment considerations</li>
+          </ul>
+        </li>
+        <li><strong>Position Papers:</strong>
+          <ul>
+            <li>Clearly articulate the position or perspective</li>
+            <li>Support arguments with evidence from literature</li>
+            <li>Discuss implications for future research directions</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <blockquote>
+      We're excited to see your contributions to the future of proactive conversational AI!
+    </blockquote>
+  </main>
+
+  <footer>
+    <p>© 2025 ProActLLM Workshop</p>
+  </footer>
+
+  <script>
+  function toggleNav() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('active');
+  }
+  </script>
+</body>
+</html>
+
