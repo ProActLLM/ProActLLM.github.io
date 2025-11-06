@@ -269,6 +269,11 @@ footer {
   display: flex;
   align-items: flex-start;
   gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.keynote-speaker:last-child {
+  margin-bottom: 0;
 }
 
 .keynote-speaker .person {
