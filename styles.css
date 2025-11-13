@@ -341,6 +341,39 @@ footer {
   color: #004080;
 }
 
+/* Style for session headers - override alternating row colors */
+.program-table tr.session-header {
+  background-color: #e7f1fc !important;
+}
+
+.program-table tr.session-header:hover {
+  background-color: #d0e4f7 !important;
+}
+
+/* Style for sub-rows (paper presentations) */
+.program-table tr.sub-row {
+  background-color: #f5f9ff;
+}
+
+.program-table tr.sub-row:nth-child(even) {
+  background-color: #f0f6ff;
+}
+
+.program-table tr.sub-row:hover {
+  background-color: #e8f1ff;
+}
+
+.program-table tr.sub-row td:last-child {
+  padding-left: 2.5rem;
+  font-size: 0.95em;
+  color: #555;
+}
+
+.program-table tr.sub-row td:first-child {
+  font-weight: 500;
+  color: #666;
+}
+
 @media (max-width: 600px) {
   .program-table {
     font-size: 0.9em;
